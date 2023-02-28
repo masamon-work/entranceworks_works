@@ -6,6 +6,10 @@
         <meta name="description" content="コーポレートサイト">
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="https://unpkg.com/ress/dist/ress.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+        <link href="style/layout.css" rel="stylesheet">
+        <link href="style/reset.css" rel="stylesheet">
         <link href="style/slick.css" rel="stylesheet">
         <link href="style/slick-theme.css" rel="stylesheet">
         <link href="style/works.css" rel="stylesheet">
@@ -13,7 +17,24 @@
         <!-- <link rel="icon" type="image/png" href="images/.png"> -->
     </head>
     <body>
-        <header></header>
+        <header>
+            <div id="wrapper">
+                <nav id="global-navi">
+                  <p class="btn-gnavi">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </p>
+                  <ul class="menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="link/index.html">TOP</a></li>
+                    <li><a href="link/about.html">ABOUT</a></li>
+                    <li><a href="link/works.html">WORK</a></li>
+                    <li><a href="link/contact.php">CONTACT</a></li>
+                  </ul>
+                </nav>
+            </div>
+        </header>
         <main>
             <div class="img">
                 <div class="show">
@@ -75,6 +96,7 @@
         <footer></footer>
         <script src="jquery-3.6.3.min.js"></script>
         <script src="slick.min.js"></script>
+        <script src="humberger.js"></script>
         <script src="works.js"></script>
     </body>
 </html>
