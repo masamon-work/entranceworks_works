@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+*{ 
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
 img{
     max-width: 100%;
 }
@@ -9,13 +16,13 @@ img{
     margin-top: 34px;
 }
 
-.top-head ul{
+/* .top-head ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
     text-transform: uppercase;
     margin: 0 20%;
-}
+} */
 
 .top-head a{
     color: white;
