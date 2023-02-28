@@ -4,29 +4,29 @@ $(".img-2023").slick({
     dots:true
 });
 
-$(".img-2022").slick({
-    autoplay:true,
-    autoplaySpeed:5000,
-    dots:true
-});
+// $(".img-2022").slick({
+//     autoplay:true,
+//     autoplaySpeed:5000,
+//     dots:true
+// });
 
-$(".img-2021").slick({
-    autoplay:true,
-    autoplaySpeed:5000,
-    dots:true
-});
+// $(".img-2021").slick({
+//     autoplay:true,
+//     autoplaySpeed:5000,
+//     dots:true
+// });
 
-$(".img-2020").slick({
-    autoplay:true,
-    autoplaySpeed:5000,
-    dots:true
-});
+// $(".img-2020").slick({
+//     autoplay:true,
+//     autoplaySpeed:5000,
+//     dots:true
+// });
 
-$(".img-2019").slick({
-    autoplay:true,
-    autoplaySpeed:5000,
-    dots:true
-});
+// $(".img-2019").slick({
+//     autoplay:true,
+//     autoplaySpeed:5000,
+//     dots:true
+// });
 
 let array = [
     "image/works_1.jpg",
