@@ -2,6 +2,7 @@ $(".img-2023").slick({
     autoplay:true,
     autoplaySpeed:5000,
     dots:true
+    
 });
 
 // $(".img-2022").slick({

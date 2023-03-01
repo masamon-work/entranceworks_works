@@ -11,11 +11,13 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    background-color: black;
 }
 
 main{
-    background-color: limegreen;
+    /* background-color: limegreen; */
+    background-color: black;
 }
 
 .img{
@@ -55,17 +57,30 @@ main{
     opacity: 0;
 }
 
+.slick-dots{
+    color: red;
+    opacity: 1;
+    /* background-color: red; */
+}
+
 .slick-dots button {
     /* 色を透明にする */
     /* color: transparent; */
     /*ドットボタンの色*/
     background:red;
+    opacity: 1;
 }
 
 .slick-dots .slick-active button{
     /*ドットボタンの現在地表示の色*/
     /* background:grey; */
     color: blue;
+    opacity: 1;
+}
+
+.slick-dots li button:before {
+    background: white;
+    opacity: 1;
 }
 
 /*slick setting*/
