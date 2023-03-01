@@ -7,13 +7,21 @@
     list-style: none;
     text-decoration: none;
     /* text-align: center; */
+    /* background-color: limegreen; */
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+main{
     background-color: limegreen;
 }
 
 .img{
     /* display: flex; */
     /* flex-wrap: wrap; */
-    background-color: aqua;
+    /* background-color: aqua; */
     /* flex-direction: row; */
     width: 80%;
     height: 80%;
@@ -45,6 +53,25 @@
 
 .hidden{
     opacity: 0;
+}
+
+.slick-dots button {
+    /* 色を透明にする */
+    /* color: transparent; */
+    /*ドットボタンの色*/
+    background:red;
+}
+
+.slick-dots .slick-active button{
+    /*ドットボタンの現在地表示の色*/
+    /* background:grey; */
+    color: blue;
+}
+
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before{
+    /* color: #000; */
 }
 
 /* .img-item:not(:nth-child(3n+3)) {
