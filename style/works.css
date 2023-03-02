@@ -58,7 +58,7 @@ main{
 }
 
 .slick-dots{
-    color: red;
+    /* color: red; */
     opacity: 1;
     /* background-color: red; */
 	bottom: -30px!important;
@@ -68,26 +68,26 @@ main{
     /* 色を透明にする */
     /* color: transparent; */
     /*ドットボタンの色*/
-    background:red;
+    /* background:red; */
     opacity: 1;
 }
 
 .slick-dots .slick-active button{
     /*ドットボタンの現在地表示の色*/
-    /* background:grey; */
-    color: blue;
+    background:limegreen;
+    /* color: blue; */
     opacity: 1;
 }
 
 .slick-dots li button:before {
-    background: white;
-    opacity: 1;
+    background: limegreen;
+    /* opacity: 1; */
 }
 
 /*slick setting*/
 .slick-prev:before,
 .slick-next:before{
-    /* color: #000; */
+    color: limegreen;
 }
 
 /* .img-item:not(:nth-child(3n+3)) {
@@ -110,7 +110,7 @@ main{
         /* text-align: center; */
     }
     body{
-        background-color: limegreen;
+        /* background-color: limegreen; */
         width: 100%;
         height: 100%;
     }
