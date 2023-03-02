@@ -61,7 +61,7 @@ main{
     color: red;
     opacity: 1;
     /* background-color: red; */
-	bottom: -90px!important;
+	bottom: -30px!important;
 }
 
 .slick-dots button {
@@ -126,4 +126,7 @@ main{
         /* height: 800px; */
         margin: 1% auto;
     }
+    .slick-dots{
+        bottom: -90px!important;
+    }    
 }
